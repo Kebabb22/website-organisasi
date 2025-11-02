@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pc IPM Medan Area</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/logo-ipm.png">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- ===================== BAGIAN HEADER ===================== -->
+<header class="navbar">
+  <div class="logo">
+    <img src="img/logo-ipm.png" alt="Logo IPM">
+    <h1>Pc IPM Medan Area</h1>
+  </div>
+
+  <!-- Tombol hamburger (hanya muncul di mobile) -->
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+
+  <nav>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="#">Profil</a>
+        <ul class="dropdown">
+          <li><a href="sejarah.html">Sejarah</a></li>
+          <li><a href="#">Gerakan (Lebah)</a></li>
+          <li><a href="struktur.html">Struktur Organisasi</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Seputar PC IPM Mera</a>
+        <ul class="dropdown">
+          <li><a href="#berita">Berita</a></li>
+        </ul>
+      </li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <a href="https://wa.me/6285765634305" class="btn-cta">Gabung IPM</a>
+</header>
+
+<!-- Script untuk toggle menu di mobile -->
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+<!-- ===================== HERO SECTION ===================== -->
+<section class="hero">
+  <div class="hero-image">
+    <img src="img/foto-bersama.png" alt="Foto Studio IPM Medan Area">
+  </div>
+
+  <div class="hero-text">
+    <span class="hero-label">Selamat Datang di Official Website</span>
+    <h2>PC IPM Medan Area 2023-2025</h2>
+    <p>Pimpinan Cabang Ikatan Pelajar Muhammadiyah Medan Area merupakan organisasi pelajar yang berperan dalam mencetak pelajar muslim berakhlak mulia, berilmu, dan terampil. Menciptakan masyarakat Islam yang sebenar-benarnya di Medan Area.</p>
+  </div>
+</section>
+
+<!-- ===================== SAMBUTAN KETUA ===================== -->
+<section class="sambutan">
+  <div class="sambutan-container">
+    <div class="sambutan-text">
+      <h3>Kata Sambutan Ketua PC IPM Medan Area</h3>
+      <p>Assalamu’alaikum warahmatullahi wabarakatuh.  
+      Segala puji bagi Allah SWT yang telah memberikan rahmat dan hidayah-Nya.  
+      IPM Medan Area senantiasa berkomitmen menjadi wadah bagi pelajar dalam menumbuhkan potensi diri, memperkuat akhlak, dan mengembangkan wawasan Islam berkemajuan.  
+      Semoga melalui website resmi ini, IPM Medan Area dapat mempererat komunikasi, menyebarluaskan informasi, dan memperkuat ukhuwah di antara pelajar.</p>
+    </div>
+    <div class="sambutan-foto">
+      <img src="img/ketua-umum-pc-ipm-medan-area-2025-2027.png" alt="Ketua PC IPM Medan Area">
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BAGIAN BERITA (CARD GRID) ===================== -->
+<section id="berita" class="berita">
+  <h2>Kegiatan & Berita IPM</h2>
+
+  <div class="berita-grid">
+    <div class="card">
+      <img src="img/berita.png" alt="Berita 1">
+      <h3>Kegiatan Sosialisasi Pelajar</h3>
+      <p>Kader IPM Medan Area melakukan kegiatan sosialisasi ke sekolah-sekolah dalam rangka memperkuat semangat pelajar berorganisasi.</p>
+      <a href="berita1.html" class="btn-card">Baca Selengkapnya</a>
+    </div>
+
+    <div class="card">
+      <img src="img/berita.png" alt="Berita 2">
+      <h3>Pelatihan Kepemimpinan Dasar</h3>
+      <p>Kegiatan ini bertujuan membentuk karakter pelajar yang mandiri dan berjiwa kepemimpinan islami.</p>
+      <a href="berita2.html" class="btn-card">Baca Selengkapnya</a>
+    </div>
+
+    <div class="card">
+      <img src="img/berita.png" alt="Berita 3">
+      <h3>Gerakan Lebah: Gotong Royong</h3>
+      <p>Gerakan peduli lingkungan dengan semangat kebersamaan, diikuti oleh seluruh kader IPM Medan Area.</p>
+      <a href="berita3.html" class="btn-card">Baca Selengkapnya</a>
+    </div>
+
+    <!-- Berita tambahan -->
+    <div class="card">
+      <img src="img/berita.png" alt="Berita 4">
+      <h3>Latihan Kepemimpinan Pelajar</h3>
+      <p>Pelatihan ini diadakan untuk menyiapkan calon pemimpin muda IPM yang berintegritas.</p>
+      <a href="berita4.html" class="btn-card">Baca Selengkapnya</a>
+    </div>
+
+    <div class="card">
+      <img src="img/berita.png" alt="Berita 5">
+      <h3>Rapat Kerja PC IPM Medan Area</h3>
+      <p>Rapat kerja tahunan untuk membahas program kerja dan strategi dakwah pelajar Muhammadiyah.</p>
+      <a href="berita5.html" class="btn-card">Baca Selengkapnya</a>
+    </div>
+
+    <div class="card">
+      <img src="img/berita.png" alt="Berita 6">
+      <h3>Pelajar Mengabdi</h3>
+      <p>Kegiatan sosial di masyarakat dalam rangka menumbuhkan kepedulian dan semangat gotong royong.</p>
+      <a href="berita6.html" class="btn-card">Baca Selengkapnya</a>
+    </div>
+  </div>
+
+  <!-- Tombol Load More -->
+  <div class="load-more-container">
+    <button id="load-more" class="btn-card">Muat Lebih Banyak</button>
+  </div>
+</section>
+
+<!-- Script untuk tombol "Muat Lebih Banyak" -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll(".berita-grid .card");
+    const loadMoreBtn = document.getElementById("load-more");
+    let visibleCount = 3; // tampil 3 berita duluan
+
+    // sembunyikan sisanya
+    cards.forEach((card, index) => {
+      if (index >= visibleCount) {
+        card.classList.add("hidden");
+      }
+    });
+
+    loadMoreBtn.addEventListener("click", () => {
+      const hiddenCards = document.querySelectorAll(".berita-grid .card.hidden");
+      for (let i = 0; i < 3 && i < hiddenCards.length; i++) {
+        hiddenCards[i].classList.remove("hidden");
+      }
+
+      // sembunyikan tombol kalau udah habis
+      if (document.querySelectorAll(".berita-grid .card.hidden").length === 0) {
+        loadMoreBtn.style.display = "none";
+      }
+    });
+  });
+</script>
+
+<!-- ===================== KONTAK ===================== -->
+<section id="kontak" class="kontak">
+    <h2>Hubungi Kami</h2>
+    <p>Ingin mengenal lebih dekat IPM Medan Area? Silakan hubungi kami melalui media berikut:</p>
+    <ul>
+        <li><i class="fab fa-whatsapp"></i> WhatsApp: +6285765634305</li>
+        <li><i class="fab fa-instagram"></i> Instagram: <a href="https://www.instagram.com/ipmmedanarea/">@ipmmedanarea</a></li>
+        <li><i class="fas fa-envelope"></i> Email: pcipmmedanarea@gmail.com</li>
+        <li><i class="fab fa-tiktok"></i> TikTok: <a href="https://www.tiktok.com/@ipmmedanarea/">@ipmmedanarea</a></li>
+    </ul>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+    <div class="footer-content">
+        <img src="img/logo-ipm.png" alt="Logo IPM">
+        <p>© 2025 PC IPM Medan Area. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
